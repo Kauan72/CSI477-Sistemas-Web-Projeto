@@ -1,4 +1,4 @@
-# **CSI606- Remoto - Proposta de Trabalho Final**
+# **CSI606 - Proposta de Trabalho**
 
 ## *Discente: Kauan Oliveira Costa*
 

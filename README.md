@@ -30,4 +30,4 @@
 
 ### 4. Protótipo
 
-  Protótipos para as páginas principal, de gerenciamento de vídeos e de visualização e gerenciamento de compromissos de um dia foram elaborados, e podem ser encontrados na plataforma sigma pelo link https://www.figma.com/proto/2lhA4oPCw2M7AJDv6QUwh0/SistemasWeb?
+  Protótipos para as páginas principal, de gerenciamento de vídeos e de visualização e gerenciamento de compromissos de um dia foram elaborados, e podem ser encontrados na plataforma sigma pelo link https://www.figma.com/proto/2lhA4oPCw2M7AJDv6QUwh0/SistemasWeb

@@ -1,31 +1,38 @@
-# **CSI606 - Proposta de Trabalho**
+# **CSI606 - Proposta de Trabalho versão final**
 
 ## *Discente: Kauan Oliveira Costa*
 
 ### Resumo
-
-  Um sistema para uso próprio onde o usuário possa armazenar vídeos que podem ser separados por temas e exibidos de forma aleatória ao selecionar um tema. 
+  Um sistema semelhante a uma agenda, onde o usuário pode adicionar vídeos a compromissos marcados em um dia para que esses vídeos sejam exibidos no dia em questão. Além 
+  de possíbilitar que o usuário agrupe vídeos em tags e exiba vídeos aleatórios de acordo com a tag.
 
 ### 1. Tema
 
-  O trabalho final tem como tema o desenvolvimento de um Sistema de reprodução diária aleatória de vídeos.
+  O trabalho final tem como tema o desenvolvimento de um Sistema de reprodução diária aleatória de vídeos e armazenamento de tarefas( ou compromissos).
 
 ### 2. Escopo
-
   Este projeto terá as seguintes funcionalidades:
+  
+  2.1. Vídeos:
 
-  .Sempre que a página for aberta, dar a possibilidade de selecionar um entre os temas para que um vídeo aleatório daquele tema seja apresentado.
+  .Pode-se adicionar novos vídeos para exibição futura por meio do link do youtube.
+  .Pode-se editar ou excluir os dados de um vídeo existente.
+  .Pode-se adicionar tags existentes aos vídeos para fins de agrupamento.
+  .Pode-se exibir um vídeo aleatório de determinada tag na tela inicial.
 
-  .Adicionar um calendário onde possamos marcar os possíveis compromissos de um determinado dia. Compromissos serão divididos em grupos(temas), para cada compromisso podemos alocar uma média(vídeo ou áudio) para ser reproduzida obrigatoriamente no dia do         
-  compromisso, antes da seleção de vídeo aleatória.
+  2.2. Compromissos:
+  .Pode-se selecionar uma data no calendário e criar compromissos para a data selecionada.
+  .pode-se editar ou excluir os dados de um compromisso existente.
+  .Pode-se criar vincular um vídeo existente ao compromisso para que seja exibido na tela inicial no dia do compromisso.
+
+  2.3. Tags:
+  .Pode-se criar novas tags.
+  .Pode-se deletar tags existentes.
 
 
 ### 3. Restrições
 
-  Neste trabalho não será considerado que a página será mantida aberta para o sistema de notificação.
-
-  Quanto ao armazenamento dos vídeos, foi considerada a possíbilidade de armazenar somente os dados importantes do vídeo e seu link do youtube para que o sistema de reprodução seja mais flexível e rápido, sem a necessidade de fazer upload de todos os vídeos 
-  desejados.
+  Neste trabalho foi considerado o armazenamento dos vídeos pelo Youtube e reprodução pelo uso de uma api do mesmo. Para que o sistema de reprodução seja mais flexível e rápido sem a necessidade de upload de vídeos.
 
 ### 4. Protótipo
 

@@ -77,18 +77,18 @@ const ExibeVideo = () => {
       setError('Selecione uma tag primeiro');
       return;
     }
-
+  
     setLoading(true);
     setError('');
     
     try {
       const response = await api.get(`/api/tags/aleatorio/${selectedTag}`);
+      console.log("Dados recebidos:", response.data); // Verifique se os dados estão completos
       setVideo(response.data);
-      // Reseta a navegação de compromissos quando vai para vídeo aleatório
-      setCompromissoAtualIndex(-1);
+      setCompromissosDoDia([]); // Limpa compromissos para evitar conflitos
     } catch (err) {
       setError('Erro ao buscar vídeo aleatório');
-      console.error(err);
+      console.error("Erro completo:", err);
     } finally {
       setLoading(false);
     }

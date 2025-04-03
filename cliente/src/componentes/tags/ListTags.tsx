@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 import { Link } from "react-router-dom";
-import "./Tags.css"
 import { FaTrash } from 'react-icons/fa';
 
 interface Tag {

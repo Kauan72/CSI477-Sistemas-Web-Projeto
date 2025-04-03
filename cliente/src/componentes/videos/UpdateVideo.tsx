@@ -78,11 +78,13 @@ const UpdateVideo = () => {
 
     return (
         <div className="add-video-container">
-            <h1>Atualizar vídeo</h1>
+            <h1 className="title">Atualizar vídeo</h1>
 
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                    <label htmlFor="nome">Nome</label>
+                    <div>
+                        <label htmlFor="nome">Nome</label>
+                    </div>
                     <input
                         type="text"
                         id="nome"
@@ -93,7 +95,9 @@ const UpdateVideo = () => {
                 </div>
                 
                 <div className="form-group">
-                    <label htmlFor="link">Link</label>
+                    <div>
+                        <label htmlFor="link">Link</label>
+                    </div>
                     <input
                         type="url"
                         id="link"
@@ -104,7 +108,9 @@ const UpdateVideo = () => {
                 </div>
 
                 <div className="form-group">
-                    <label>Tags</label>
+                    <div>
+                        <label>Tags</label>
+                    </div>
                     <div className="tags-container">
                         {tags.map(tag => (
                             <div key={tag.id} className="tag-item">
@@ -123,7 +129,7 @@ const UpdateVideo = () => {
                     )}
                 </div>
 
-                <button type="submit" disabled={isSubmitting}>
+                <button type="submit" disabled={isSubmitting} className="submit-buttom">
                     {isSubmitting ? 'Enviando...' : 'Atualizar'}
                 </button>
             </form>

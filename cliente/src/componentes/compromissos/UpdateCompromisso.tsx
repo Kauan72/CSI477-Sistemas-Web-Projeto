@@ -82,11 +82,13 @@ const UpdateCompromisso = () => {
 
     return (
         <div className="add-compromisso-container">
-            <h2>Editar Compromisso</h2>
+            <h1 className='title'>Editar Compromisso</h1>
             
             <form onSubmit={handleSubmit} className="add-compromisso-form">
                 <div className="form-group">
-                    <label>Nome *</label>
+                    <div>
+                        <label>Nome</label>
+                    </div>
                     <input
                         type="text"
                         value={nome}
@@ -96,7 +98,9 @@ const UpdateCompromisso = () => {
                 </div>
 
                 <div className="form-group">
-                    <label>Tipo *</label>
+                    <div>
+                        <label>Tipo</label>
+                    </div>
                     <input
                         type="text"
                         value={tipo}
@@ -106,12 +110,14 @@ const UpdateCompromisso = () => {
                 </div>
 
                 <div className="form-group">
-                    <label>Vídeo *</label>
+                    <div>
+                     <label>Vídeo</label>
+                    </div>
                     <select
                         value={videoId}
                         onChange={(e) => setVideoId(Number(e.target.value))}
                         required
-                    >
+                    className='select'>
                         <option value="">Selecione um vídeo</option>
                         {videos.map(video => (
                             <option key={video.id} value={video.id}>
@@ -122,14 +128,7 @@ const UpdateCompromisso = () => {
                 </div>
 
                 <div className="form-actions">
-                    <button 
-                        type="button" 
-                        onClick={() => navigate(-1)}
-                        className="cancel-button"
-                    >
-                        Cancelar
-                    </button>
-                    <button type="submit" disabled={isSubmitting}>
+                    <button type="submit" disabled={isSubmitting} className='submit-buttom'>
                         {isSubmitting ? 'Salvando...' : 'Salvar Alterações'}
                     </button>
                 </div>

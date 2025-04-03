@@ -19,7 +19,6 @@
   .Adicionar um calendário onde possamos marcar os possíveis compromissos de um determinado dia. Compromissos serão divididos em grupos(temas), para cada compromisso podemos alocar uma média(vídeo ou áudio) para ser reproduzida obrigatoriamente no dia do         
   compromisso, antes da seleção de vídeo aleatória.
 
-  .Adicionar um sistema de notificação por som dentro do próprio site(imaginado para estar sempre aberto no navegador) para compromissos.
 
 ### 3. Restrições
 

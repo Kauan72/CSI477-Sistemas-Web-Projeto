@@ -1,0 +1,10 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  margin-left: 250px; /* Mesma largura da sidebar */
+  padding: 20px;
+}

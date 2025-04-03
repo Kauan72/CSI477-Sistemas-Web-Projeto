@@ -1,0 +1,66 @@
+.add-button {
+    margin-top: 40px;
+    margin-bottom: 90px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(157, 157, 157, 0.147);
+    border-color: rgba(157, 157, 157, 0.644);
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 10px;
+}
+
+.date {
+    background-color: rgba(157, 157, 157, 0.147);
+    border-color: rgba(157, 157, 157, 0.644);
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 10px;
+}
+
+.table {
+    width: 70%;
+    
+}
+
+.table, th, td {
+    border: 1px solid rgba(68, 67, 67, 0.743);
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+tbody tr:hover {
+    background-color: rgb(239, 239, 239);
+}
+
+.update-or-delete {
+    width: 14px;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000000; 
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    margin-left: 10px;
+  }
+  
+.delete-button:hover {
+color: #3000cc; 
+}
+
+.update-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000000; 
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    margin-left: 5px;
+}
+
+.update-button:hover {
+    color: #3000cc; 
+}

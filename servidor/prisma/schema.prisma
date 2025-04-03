@@ -11,14 +11,25 @@ datasource db {
 }
 
 model Compromisso {
-  id Int @id @default(autoincrement())
-  nome String
-  data DateTime
-  tipo String
+  id      Int     @id @default(autoincrement())
+  nome    String
+  data    DateTime
+  tipo    String
+  video   Video   @relation(fields: [videoId], references: [id])
+  videoId Int     
 }
 
-model Classificacao{
-  id Int @id
-  compromissoId Int @unique
-  tag String @unique
+
+model Classificacao {
+  id      Int     @id @default(autoincrement())
+  tag     String  @unique 
+  videos  Video[] 
+}
+
+model Video {
+  id      Int    @id @default(autoincrement())
+  nome    String
+  link String
+  classificacoes  Classificacao[]
+  compromissos Compromisso[]
 }

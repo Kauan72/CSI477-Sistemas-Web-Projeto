@@ -16,17 +16,25 @@
   2.1. Vídeos:
 
   .Pode-se adicionar novos vídeos para exibição futura por meio do link do youtube.
+  
   .Pode-se editar ou excluir os dados de um vídeo existente.
+  
   .Pode-se adicionar tags existentes aos vídeos para fins de agrupamento.
+  
   .Pode-se exibir um vídeo aleatório de determinada tag na tela inicial.
 
   2.2. Compromissos:
+  
   .Pode-se selecionar uma data no calendário e criar compromissos para a data selecionada.
+  
   .pode-se editar ou excluir os dados de um compromisso existente.
+  
   .Pode-se criar vincular um vídeo existente ao compromisso para que seja exibido na tela inicial no dia do compromisso.
 
   2.3. Tags:
+  
   .Pode-se criar novas tags.
+  
   .Pode-se deletar tags existentes.
 
 
